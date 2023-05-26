@@ -47,7 +47,7 @@ encode_dict = {'Fuel Type': {'Diesel':1, 'Petrol':2, 'CNG':3, 'LPG': 4, 'Electri
 def model_pred(fuel_type,transmission,engine, seats):
 
     # reading model
-    with open ('car_pred','rb') as file:
+    with open ('Automobile-price-prediction-/car_pred','rb') as file:
         reg_model = pkl.load(file)
 
     # test data info
